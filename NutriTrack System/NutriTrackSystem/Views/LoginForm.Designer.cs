@@ -1,6 +1,6 @@
-﻿namespace NutriTrackSystem
+﻿namespace NutriTrackSystem.Views
 {
-    partial class Form1
+    partial class LoginForm
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
             labelTitulo = new Label();
             labelBienvenido = new Label();
             NombreUsuario = new TextBox();
@@ -100,7 +100,7 @@
             BotonRegistro.Text = "Registrarse";
             BotonRegistro.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // LoginForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
