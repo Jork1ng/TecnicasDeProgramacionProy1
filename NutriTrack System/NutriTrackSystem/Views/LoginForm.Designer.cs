@@ -47,7 +47,7 @@
             labelTitulo.TabIndex = 0;
             labelTitulo.Text = "NutriTrack System";
             labelTitulo.TextAlign = ContentAlignment.TopCenter;
-            labelTitulo.Click += label1_Click;
+            labelTitulo.Click += Label1_Click;
             // 
             // labelBienvenido
             // 
@@ -57,7 +57,7 @@
             labelBienvenido.Size = new Size(83, 20);
             labelBienvenido.TabIndex = 1;
             labelBienvenido.Text = "Bienvenido";
-            labelBienvenido.Click += label1_Click_1;
+            labelBienvenido.Click += Label1_Click_1;
             // 
             // NombreUsuario
             // 
@@ -87,7 +87,7 @@
             labelPreguntaRegistro.Size = new Size(264, 20);
             labelPreguntaRegistro.TabIndex = 4;
             labelPreguntaRegistro.Text = "¿Eres nuevo en NutriTrack? ¡Regístrate!";
-            labelPreguntaRegistro.Click += label1_Click_2;
+            labelPreguntaRegistro.Click += Label1_Click_2;
             // 
             // BotonRegistro
             // 
@@ -99,6 +99,7 @@
             BotonRegistro.TabIndex = 5;
             BotonRegistro.Text = "Registrarse";
             BotonRegistro.UseVisualStyleBackColor = true;
+            BotonRegistro.Click += BotonRegistro_Click;
             // 
             // LoginForm
             // 
@@ -113,10 +114,10 @@
             Controls.Add(labelBienvenido);
             Controls.Add(labelTitulo);
             Icon = (Icon)resources.GetObject("$this.Icon");
-            Name = "Form1";
+            Name = "LoginForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "NutriTrack System";
-            Load += Form1_Load;
+            Load += LoginForm_Load;
             ResumeLayout(false);
             PerformLayout();
         }
