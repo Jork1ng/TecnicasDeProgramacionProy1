@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\JordySibajaMorales\\OneDrive - HOTEL HOSPEDAJE SM SOCIEDAD AN\u00D3NIMA\\Escritorio\\Entorono S\\Tecnicas de programacion\\NutriTrack System\\NutriTrackSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9440463C-206E-E0BE-441B-5C4D1F2AC4CE}|NutriTrackSystem.csproj|c:\\users\\jordysibajamorales\\onedrive - hotel hospedaje sm sociedad an\u00F3nima\\escritorio\\entorono s\\tecnicas de programacion\\nutritrack system\\nutritracksystem\\views\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9440463C-206E-E0BE-441B-5C4D1F2AC4CE}|NutriTrackSystem.csproj|solutionrelative:views\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9440463C-206E-E0BE-441B-5C4D1F2AC4CE}|NutriTrackSystem.csproj|c:\\users\\jordysibajamorales\\onedrive - hotel hospedaje sm sociedad an\u00F3nima\\escritorio\\entorono s\\tecnicas de programacion\\nutritrack system\\nutritracksystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9440463C-206E-E0BE-441B-5C4D1F2AC4CE}|NutriTrackSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9440463C-206E-E0BE-441B-5C4D1F2AC4CE}|NutriTrackSystem.csproj|c:\\users\\jordysibajamorales\\onedrive - hotel hospedaje sm sociedad an\u00F3nima\\escritorio\\entorono s\\tecnicas de programacion\\nutritrack system\\nutritracksystem\\views\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9440463C-206E-E0BE-441B-5C4D1F2AC4CE}|NutriTrackSystem.csproj|solutionrelative:views\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9440463C-206E-E0BE-441B-5C4D1F2AC4CE}|NutriTrackSystem.csproj|c:\\users\\jordysibajamorales\\onedrive - hotel hospedaje sm sociedad an\u00F3nima\\escritorio\\entorono s\\tecnicas de programacion\\nutritrack system\\nutritracksystem\\views\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{9440463C-206E-E0BE-441B-5C4D1F2AC4CE}|NutriTrackSystem.csproj|C:\\Users\\JordySibajaMorales\\OneDrive - HOTEL HOSPEDAJE SM SOCIEDAD AN\u00D3NIMA\\Escritorio\\Entorono S\\Tecnicas de programacion\\NutriTrack System\\NutriTrackSystem\\views\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9440463C-206E-E0BE-441B-5C4D1F2AC4CE}|NutriTrackSystem.csproj|solutionrelative:views\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9440463C-206E-E0BE-441B-5C4D1F2AC4CE}|NutriTrackSystem.csproj|c:\\users\\jordysibajamorales\\onedrive - hotel hospedaje sm sociedad an\u00F3nima\\escritorio\\entorono s\\tecnicas de programacion\\nutritrack system\\nutritracksystem\\views\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9440463C-206E-E0BE-441B-5C4D1F2AC4CE}|NutriTrackSystem.csproj|solutionrelative:views\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9440463C-206E-E0BE-441B-5C4D1F2AC4CE}|NutriTrackSystem.csproj|c:\\users\\jordysibajamorales\\onedrive - hotel hospedaje sm sociedad an\u00F3nima\\escritorio\\entorono s\\tecnicas de programacion\\nutritrack system\\nutritracksystem\\views\\registerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9440463C-206E-E0BE-441B-5C4D1F2AC4CE}|NutriTrackSystem.csproj|solutionrelative:views\\registerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9440463C-206E-E0BE-441B-5C4D1F2AC4CE}|NutriTrackSystem.csproj|c:\\users\\jordysibajamorales\\onedrive - hotel hospedaje sm sociedad an\u00F3nima\\escritorio\\entorono s\\tecnicas de programacion\\nutritrack system\\nutritracksystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9440463C-206E-E0BE-441B-5C4D1F2AC4CE}|NutriTrackSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,24 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RegisterForm.cs",
-              "DocumentMoniker": "C:\\Users\\JordySibajaMorales\\OneDrive - HOTEL HOSPEDAJE SM SOCIEDAD AN\u00D3NIMA\\Escritorio\\Entorono S\\Tecnicas de programacion\\NutriTrack System\\NutriTrackSystem\\Views\\RegisterForm.cs",
-              "RelativeDocumentMoniker": "Views\\RegisterForm.cs",
-              "ToolTip": "C:\\Users\\JordySibajaMorales\\OneDrive - HOTEL HOSPEDAJE SM SOCIEDAD AN\u00D3NIMA\\Escritorio\\Entorono S\\Tecnicas de programacion\\NutriTrack System\\NutriTrackSystem\\Views\\RegisterForm.cs",
-              "RelativeToolTip": "Views\\RegisterForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T21:20:22.384Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\JordySibajaMorales\\OneDrive - HOTEL HOSPEDAJE SM SOCIEDAD AN\u00D3NIMA\\Escritorio\\Entorono S\\Tecnicas de programacion\\NutriTrack System\\NutriTrackSystem\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -56,24 +39,24 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-01T21:09:44.81Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoginForm.cs",
+              "DocumentIndex": 1,
+              "Title": "LoginForm.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\JordySibajaMorales\\OneDrive - HOTEL HOSPEDAJE SM SOCIEDAD AN\u00D3NIMA\\Escritorio\\Entorono S\\Tecnicas de programacion\\NutriTrack System\\NutriTrackSystem\\Views\\LoginForm.cs",
               "RelativeDocumentMoniker": "Views\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\JordySibajaMorales\\OneDrive - HOTEL HOSPEDAJE SM SOCIEDAD AN\u00D3NIMA\\Escritorio\\Entorono S\\Tecnicas de programacion\\NutriTrack System\\NutriTrackSystem\\Views\\LoginForm.cs",
-              "RelativeToolTip": "Views\\LoginForm.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA1wCIAAAAYAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\JordySibajaMorales\\OneDrive - HOTEL HOSPEDAJE SM SOCIEDAD AN\u00D3NIMA\\Escritorio\\Entorono S\\Tecnicas de programacion\\NutriTrack System\\NutriTrackSystem\\Views\\LoginForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Views\\LoginForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T21:05:26.719Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-02T22:03:50.189Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "RegisterForm.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\JordySibajaMorales\\OneDrive - HOTEL HOSPEDAJE SM SOCIEDAD AN\u00D3NIMA\\Escritorio\\Entorono S\\Tecnicas de programacion\\NutriTrack System\\NutriTrackSystem\\Views\\RegisterForm.cs",
               "RelativeDocumentMoniker": "Views\\RegisterForm.cs",
@@ -85,15 +68,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoginForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\JordySibajaMorales\\OneDrive - HOTEL HOSPEDAJE SM SOCIEDAD AN\u00D3NIMA\\Escritorio\\Entorono S\\Tecnicas de programacion\\NutriTrack System\\NutriTrackSystem\\Views\\LoginForm.cs",
-              "RelativeDocumentMoniker": "Views\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\JordySibajaMorales\\OneDrive - HOTEL HOSPEDAJE SM SOCIEDAD AN\u00D3NIMA\\Escritorio\\Entorono S\\Tecnicas de programacion\\NutriTrack System\\NutriTrackSystem\\Views\\LoginForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Views\\LoginForm.cs [Dise\u00F1o]",
+              "DocumentIndex": 2,
+              "Title": "RegisterForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\JordySibajaMorales\\OneDrive - HOTEL HOSPEDAJE SM SOCIEDAD AN\u00D3NIMA\\Escritorio\\Entorono S\\Tecnicas de programacion\\NutriTrack System\\NutriTrackSystem\\Views\\RegisterForm.Designer.cs",
+              "RelativeDocumentMoniker": "Views\\RegisterForm.Designer.cs",
+              "ToolTip": "C:\\Users\\JordySibajaMorales\\OneDrive - HOTEL HOSPEDAJE SM SOCIEDAD AN\u00D3NIMA\\Escritorio\\Entorono S\\Tecnicas de programacion\\NutriTrack System\\NutriTrackSystem\\Views\\RegisterForm.Designer.cs",
+              "RelativeToolTip": "Views\\RegisterForm.Designer.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAtwE8AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T21:01:14.606Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2026-04-02T22:34:20.707Z",
+              "EditorCaption": ""
             }
           ]
         }

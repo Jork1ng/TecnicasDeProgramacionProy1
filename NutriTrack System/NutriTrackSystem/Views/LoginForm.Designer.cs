@@ -31,8 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
             labelTitulo = new Label();
             labelBienvenido = new Label();
-            NombreUsuario = new TextBox();
-            Contraseña = new TextBox();
+            TxtNombreUsuario = new TextBox();
+            TxtContraseña = new TextBox();
             labelPreguntaRegistro = new Label();
             BotonRegistro = new Button();
             SuspendLayout();
@@ -59,25 +59,25 @@
             labelBienvenido.Text = "Bienvenido";
             labelBienvenido.Click += Label1_Click_1;
             // 
-            // NombreUsuario
+            // TxtNombreUsuario
             // 
-            NombreUsuario.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            NombreUsuario.Location = new Point(150, 74);
-            NombreUsuario.Name = "NombreUsuario";
-            NombreUsuario.PlaceholderText = "Usuario";
-            NombreUsuario.Size = new Size(300, 27);
-            NombreUsuario.TabIndex = 2;
-            NombreUsuario.TextAlign = HorizontalAlignment.Center;
+            TxtNombreUsuario.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            TxtNombreUsuario.Location = new Point(150, 74);
+            TxtNombreUsuario.Name = "TxtNombreUsuario";
+            TxtNombreUsuario.PlaceholderText = "Usuario";
+            TxtNombreUsuario.Size = new Size(300, 27);
+            TxtNombreUsuario.TabIndex = 2;
+            TxtNombreUsuario.TextAlign = HorizontalAlignment.Center;
             // 
-            // Contraseña
+            // TxtContraseña
             // 
-            Contraseña.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            Contraseña.Location = new Point(150, 125);
-            Contraseña.Name = "Contraseña";
-            Contraseña.PlaceholderText = "Contraseña";
-            Contraseña.Size = new Size(300, 27);
-            Contraseña.TabIndex = 3;
-            Contraseña.TextAlign = HorizontalAlignment.Center;
+            TxtContraseña.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            TxtContraseña.Location = new Point(150, 125);
+            TxtContraseña.Name = "TxtContraseña";
+            TxtContraseña.PlaceholderText = "Contraseña";
+            TxtContraseña.Size = new Size(300, 27);
+            TxtContraseña.TabIndex = 3;
+            TxtContraseña.TextAlign = HorizontalAlignment.Center;
             // 
             // labelPreguntaRegistro
             // 
@@ -109,8 +109,8 @@
             ClientSize = new Size(583, 462);
             Controls.Add(BotonRegistro);
             Controls.Add(labelPreguntaRegistro);
-            Controls.Add(Contraseña);
-            Controls.Add(NombreUsuario);
+            Controls.Add(TxtContraseña);
+            Controls.Add(TxtNombreUsuario);
             Controls.Add(labelBienvenido);
             Controls.Add(labelTitulo);
             Icon = (Icon)resources.GetObject("$this.Icon");
@@ -126,8 +126,8 @@
 
         private Label labelTitulo;
         private Label labelBienvenido;
-        private TextBox NombreUsuario;
-        private TextBox Contraseña;
+        private TextBox TxtNombreUsuario;
+        private TextBox TxtContraseña;
         private Label labelPreguntaRegistro;
         private Button BotonRegistro;
     }
