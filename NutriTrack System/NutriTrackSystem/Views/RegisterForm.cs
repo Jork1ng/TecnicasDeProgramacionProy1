@@ -19,5 +19,35 @@ namespace NutriTrackSystem.Views
         {
 
         }
+
+        private void LabelBienvenido_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TxtAlturaCM_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void TxtAltura_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LabelEscribaElNombreDeUsuario_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LabelActividadFisica_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ComboBoxMeta_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
