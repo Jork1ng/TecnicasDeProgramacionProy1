@@ -35,6 +35,7 @@
             TxtContraseña = new TextBox();
             labelPreguntaRegistro = new Label();
             BotonRegistro = new Button();
+            BtnLogin = new Button();
             SuspendLayout();
             // 
             // labelTitulo
@@ -82,7 +83,7 @@
             // labelPreguntaRegistro
             // 
             labelPreguntaRegistro.AutoSize = true;
-            labelPreguntaRegistro.Location = new Point(168, 184);
+            labelPreguntaRegistro.Location = new Point(168, 238);
             labelPreguntaRegistro.Name = "labelPreguntaRegistro";
             labelPreguntaRegistro.Size = new Size(264, 20);
             labelPreguntaRegistro.TabIndex = 4;
@@ -93,7 +94,7 @@
             // 
             BotonRegistro.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             BotonRegistro.ForeColor = Color.Lime;
-            BotonRegistro.Location = new Point(207, 238);
+            BotonRegistro.Location = new Point(207, 292);
             BotonRegistro.Name = "BotonRegistro";
             BotonRegistro.Size = new Size(178, 34);
             BotonRegistro.TabIndex = 5;
@@ -101,12 +102,24 @@
             BotonRegistro.UseVisualStyleBackColor = true;
             BotonRegistro.Click += BotonRegistro_Click;
             // 
+            // BtnLogin
+            // 
+            BtnLogin.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            BtnLogin.ForeColor = Color.Blue;
+            BtnLogin.Location = new Point(207, 183);
+            BtnLogin.Name = "BtnLogin";
+            BtnLogin.Size = new Size(178, 34);
+            BtnLogin.TabIndex = 6;
+            BtnLogin.Text = "Iniciar sesion";
+            BtnLogin.UseVisualStyleBackColor = true;
+            // 
             // LoginForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Control;
             ClientSize = new Size(583, 462);
+            Controls.Add(BtnLogin);
             Controls.Add(BotonRegistro);
             Controls.Add(labelPreguntaRegistro);
             Controls.Add(TxtContraseña);
@@ -130,5 +143,6 @@
         private TextBox TxtContraseña;
         private Label labelPreguntaRegistro;
         private Button BotonRegistro;
+        private Button BtnLogin;
     }
 }

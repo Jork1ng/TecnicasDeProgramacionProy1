@@ -1,0 +1,11 @@
+[
+  {
+    "Username": "Jordy",
+    "Password": "admin",
+    "Weight": 70,
+    "Height": 175,
+    "ActivityLevel": "Intensa",
+    "DietaryPreferences": "Vegetariana",
+    "HealthGoals": "Mantener"
+  }
+]

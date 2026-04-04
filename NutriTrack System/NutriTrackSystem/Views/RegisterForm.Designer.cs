@@ -36,9 +36,7 @@
             TxtUsuario = new TextBox();
             TxtContraseña = new TextBox();
             LabelIngreseSuPeso = new Label();
-            TxtPeso = new MaskedTextBox();
             TxtAltura = new Label();
-            TxtAlturaCM = new MaskedTextBox();
             LabelActividadFisica = new Label();
             ComboBoxActividadFisica = new ComboBox();
             LabelTipoDeDieta = new Label();
@@ -46,6 +44,8 @@
             ComboBoxMeta = new ComboBox();
             LabelMeta = new Label();
             BotonRegistro = new Button();
+            TxtWeight = new TextBox();
+            TxtHeight = new TextBox();
             SuspendLayout();
             // 
             // LabelNombreDeUsuario
@@ -115,14 +115,6 @@
             LabelIngreseSuPeso.TabIndex = 8;
             LabelIngreseSuPeso.Text = "Ingrese su peso en KG";
             // 
-            // TxtPeso
-            // 
-            TxtPeso.Location = new Point(215, 219);
-            TxtPeso.Name = "TxtPeso";
-            TxtPeso.Size = new Size(176, 27);
-            TxtPeso.TabIndex = 10;
-            TxtPeso.TextAlign = HorizontalAlignment.Center;
-            // 
             // TxtAltura
             // 
             TxtAltura.AutoSize = true;
@@ -132,15 +124,6 @@
             TxtAltura.TabIndex = 11;
             TxtAltura.Text = "Ingrese su altura en CM";
             TxtAltura.Click += TxtAltura_Click;
-            // 
-            // TxtAlturaCM
-            // 
-            TxtAlturaCM.Location = new Point(215, 288);
-            TxtAlturaCM.Name = "TxtAlturaCM";
-            TxtAlturaCM.Size = new Size(176, 27);
-            TxtAlturaCM.TabIndex = 12;
-            TxtAlturaCM.TextAlign = HorizontalAlignment.Center;
-            TxtAlturaCM.MaskInputRejected += TxtAlturaCM_MaskInputRejected;
             // 
             // LabelActividadFisica
             // 
@@ -208,12 +191,33 @@
             BotonRegistro.TabIndex = 19;
             BotonRegistro.Text = "Registrarse";
             BotonRegistro.UseVisualStyleBackColor = true;
+            BotonRegistro.Click += BotonRegistro_Click;
+            // 
+            // TxtWeight
+            // 
+            TxtWeight.Location = new Point(211, 219);
+            TxtWeight.Name = "TxtWeight";
+            TxtWeight.PlaceholderText = "Peso";
+            TxtWeight.Size = new Size(178, 27);
+            TxtWeight.TabIndex = 20;
+            TxtWeight.TextAlign = HorizontalAlignment.Center;
+            // 
+            // TxtHeight
+            // 
+            TxtHeight.Location = new Point(211, 288);
+            TxtHeight.Name = "TxtHeight";
+            TxtHeight.PlaceholderText = "Altura";
+            TxtHeight.Size = new Size(178, 27);
+            TxtHeight.TabIndex = 21;
+            TxtHeight.TextAlign = HorizontalAlignment.Center;
             // 
             // RegisterForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(583, 462);
+            Controls.Add(TxtHeight);
+            Controls.Add(TxtWeight);
             Controls.Add(BotonRegistro);
             Controls.Add(LabelMeta);
             Controls.Add(ComboBoxMeta);
@@ -221,9 +225,7 @@
             Controls.Add(LabelTipoDeDieta);
             Controls.Add(ComboBoxActividadFisica);
             Controls.Add(LabelActividadFisica);
-            Controls.Add(TxtAlturaCM);
             Controls.Add(TxtAltura);
-            Controls.Add(TxtPeso);
             Controls.Add(LabelIngreseSuPeso);
             Controls.Add(TxtContraseña);
             Controls.Add(TxtUsuario);
@@ -249,9 +251,7 @@
         private TextBox TxtUsuario;
         private TextBox TxtContraseña;
         private Label LabelIngreseSuPeso;
-        private MaskedTextBox TxtPeso;
         private Label TxtAltura;
-        private MaskedTextBox TxtAlturaCM;
         private Label LabelActividadFisica;
         private ComboBox ComboBoxActividadFisica;
         private Label LabelTipoDeDieta;
@@ -259,5 +259,7 @@
         private ComboBox ComboBoxMeta;
         private Label LabelMeta;
         private Button BotonRegistro;
+        private TextBox TxtWeight;
+        private TextBox TxtHeight;
     }
 }
