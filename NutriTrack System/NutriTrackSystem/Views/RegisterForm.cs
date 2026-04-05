@@ -60,6 +60,15 @@ namespace NutriTrackSystem.Views
             double weight;
             double height;
 
+            if (string.IsNullOrEmpty(TxtUsuario.Text) || string.IsNullOrEmpty(TxtContraseña.Text) ||
+                string.IsNullOrEmpty(TxtWeight.Text) || string.IsNullOrEmpty(TxtHeight.Text) ||
+                string.IsNullOrEmpty(ComboBoxActividadFisica.Text) || string.IsNullOrEmpty(ComboBoxTipoDeDieta.Text) ||
+                string.IsNullOrEmpty(ComboBoxMeta.Text))
+            {
+                MessageBox.Show("Por favor, complete todos los campos.");
+                return;
+            }
+
             if (!double.TryParse(TxtWeight.Text, out weight))
             {
                 MessageBox.Show("Peso Invalido");
