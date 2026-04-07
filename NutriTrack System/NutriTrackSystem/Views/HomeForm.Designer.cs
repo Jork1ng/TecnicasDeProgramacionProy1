@@ -88,6 +88,7 @@
             ButtonInfo.TabIndex = 8;
             ButtonInfo.Text = "Ver informacion";
             ButtonInfo.UseVisualStyleBackColor = true;
+            ButtonInfo.Click += ButtonInfo_Click;
             // 
             // ButtonMenu
             // 
@@ -106,6 +107,7 @@
             ButtonProduct.TabIndex = 10;
             ButtonProduct.Text = "Gestionar productos";
             ButtonProduct.UseVisualStyleBackColor = true;
+            ButtonProduct.Click += ButtonProduct_Click;
             // 
             // ButtonStatics
             // 

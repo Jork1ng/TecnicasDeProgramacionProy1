@@ -13,5 +13,6 @@ namespace NutriTrackSystem.Interfaces
     {
         bool Register(User user);
         User Login(string username, string password);
+        bool UpdateUser(User user);
     }
 }

@@ -27,13 +27,28 @@ namespace NutriTrackSystem.Views
         {
             InitializeComponent();
             currentUser = user;
-            
+
             LableUser.Text = $"{currentUser.Username}!";
         }
 
         private void HomeForm_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void ButtonInfo_Click(object sender, EventArgs e)
+        {
+            UserInfoForm form = new UserInfoForm(currentUser);
+            form.Show();
+            this.Hide();
+
+        }
+
+        private void ButtonProduct_Click(object sender, EventArgs e)
+        {
+            ProductManagementForm form = new ProductManagementForm(currentUser);
+            form.Show();
+            this.Hide();
         }
     }
 }

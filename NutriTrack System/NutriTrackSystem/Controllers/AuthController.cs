@@ -77,5 +77,30 @@ namespace NutriTrackSystem.Controllers
             return users.FirstOrDefault(u =>
                 u.Username == username && u.Password == password);
         }
+        public bool UpdateUser(User updatedUser)
+        {
+            string fullPath = GetFilePath();
+
+            var users = GetUsers();
+
+            var user = users.FirstOrDefault(u => u.Username == updatedUser.Username);
+
+            if (user == null)
+                return false;
+
+            user.Weight = updatedUser.Weight;
+            user.Height = updatedUser.Height;
+            user.ActivityLevel = updatedUser.ActivityLevel;
+            user.DietaryPreferences = updatedUser.DietaryPreferences;
+            user.HealthGoals = updatedUser.HealthGoals;
+
+            string json = JsonSerializer.Serialize(users, new JsonSerializerOptions
+            {
+                WriteIndented = true
+            });
+            File.WriteAllText(fullPath, json);
+
+            return true;
+        }
     }
 }
