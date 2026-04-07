@@ -2,10 +2,28 @@
   {
     "Username": "Jordy",
     "Password": "admin",
-    "Weight": 70,
-    "Height": 175,
+    "Weight": 75,
+    "Height": 177,
     "ActivityLevel": "Intensa",
     "DietaryPreferences": "Vegetariana",
+    "HealthGoals": "Mantener"
+  },
+  {
+    "Username": "Minor",
+    "Password": "123",
+    "Weight": 100,
+    "Height": 170,
+    "ActivityLevel": "Moderada",
+    "DietaryPreferences": "Vegetariana",
+    "HealthGoals": "Perder grasa"
+  },
+  {
+    "Username": "Johana",
+    "Password": "123",
+    "Weight": 60,
+    "Height": 180,
+    "ActivityLevel": "Moderada",
+    "DietaryPreferences": "Keto",
     "HealthGoals": "Mantener"
   }
 ]

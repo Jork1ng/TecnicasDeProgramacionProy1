@@ -105,6 +105,7 @@
             TxtContraseña.Size = new Size(176, 27);
             TxtContraseña.TabIndex = 7;
             TxtContraseña.TextAlign = HorizontalAlignment.Center;
+            TxtContraseña.UseSystemPasswordChar = true;
             // 
             // LabelIngreseSuPeso
             // 

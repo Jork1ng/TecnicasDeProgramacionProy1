@@ -63,10 +63,11 @@
             // TxtNombreUsuario
             // 
             TxtNombreUsuario.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            TxtNombreUsuario.BorderStyle = BorderStyle.None;
             TxtNombreUsuario.Location = new Point(150, 74);
             TxtNombreUsuario.Name = "TxtNombreUsuario";
             TxtNombreUsuario.PlaceholderText = "Usuario";
-            TxtNombreUsuario.Size = new Size(300, 27);
+            TxtNombreUsuario.Size = new Size(300, 20);
             TxtNombreUsuario.TabIndex = 2;
             TxtNombreUsuario.TextAlign = HorizontalAlignment.Center;
             // 
@@ -79,6 +80,7 @@
             TxtContraseña.Size = new Size(300, 27);
             TxtContraseña.TabIndex = 3;
             TxtContraseña.TextAlign = HorizontalAlignment.Center;
+            TxtContraseña.UseSystemPasswordChar = true;
             // 
             // labelPreguntaRegistro
             // 
@@ -112,6 +114,7 @@
             BtnLogin.TabIndex = 6;
             BtnLogin.Text = "Iniciar sesion";
             BtnLogin.UseVisualStyleBackColor = true;
+            BtnLogin.Click += BtnLogin_Click;
             // 
             // LoginForm
             // 
