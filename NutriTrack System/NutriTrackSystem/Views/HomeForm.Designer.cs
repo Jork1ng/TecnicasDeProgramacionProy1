@@ -79,6 +79,7 @@
             BtnLogOut.TabIndex = 7;
             BtnLogOut.Text = "Cerrar Sesion";
             BtnLogOut.UseVisualStyleBackColor = true;
+            BtnLogOut.Click += BtnLogOut_Click;
             // 
             // ButtonInfo
             // 
@@ -98,6 +99,7 @@
             ButtonMenu.TabIndex = 9;
             ButtonMenu.Text = "Gestionar menus";
             ButtonMenu.UseVisualStyleBackColor = true;
+            ButtonMenu.Click += ButtonMenu_Click;
             // 
             // ButtonProduct
             // 
@@ -117,6 +119,7 @@
             ButtonStatics.TabIndex = 11;
             ButtonStatics.Text = "Estadisticas";
             ButtonStatics.UseVisualStyleBackColor = true;
+            ButtonStatics.Click += ButtonStatics_Click;
             // 
             // HomeForm
             // 
