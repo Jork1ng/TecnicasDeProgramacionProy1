@@ -84,6 +84,7 @@
             BtnBack.TabIndex = 5;
             BtnBack.Text = "Volver";
             BtnBack.UseVisualStyleBackColor = true;
+            BtnBack.Click += BtnBack_Click;
             // 
             // labelProducts
             // 
@@ -374,6 +375,7 @@
             Name = "StaticsForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "NutriTrack System";
+            Load += StaticsForm_Load;
             PanelCalc.ResumeLayout(false);
             PanelCalc.PerformLayout();
             PanelResult.ResumeLayout(false);

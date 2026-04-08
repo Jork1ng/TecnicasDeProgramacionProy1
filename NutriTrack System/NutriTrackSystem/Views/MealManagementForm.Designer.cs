@@ -36,7 +36,7 @@
             BtnAddMeal = new Button();
             label3 = new Label();
             BtnSchedule = new Button();
-            BtnDelete = new Button();
+            BtnDeleteMeal = new Button();
             BtnEdit = new Button();
             BtnMeals = new ComboBox();
             label1 = new Label();
@@ -85,6 +85,7 @@
             BtnBack.TabIndex = 4;
             BtnBack.Text = "Volver";
             BtnBack.UseVisualStyleBackColor = true;
+            BtnBack.Click += BtnBack_Click;
             // 
             // labelProducts
             // 
@@ -101,7 +102,7 @@
             PanelMeals.Controls.Add(BtnAddMeal);
             PanelMeals.Controls.Add(label3);
             PanelMeals.Controls.Add(BtnSchedule);
-            PanelMeals.Controls.Add(BtnDelete);
+            PanelMeals.Controls.Add(BtnDeleteMeal);
             PanelMeals.Controls.Add(BtnEdit);
             PanelMeals.Controls.Add(BtnMeals);
             PanelMeals.Controls.Add(label1);
@@ -120,6 +121,7 @@
             BtnAddMeal.TabIndex = 10;
             BtnAddMeal.Text = "Agregar";
             BtnAddMeal.UseVisualStyleBackColor = true;
+            BtnAddMeal.Click += BtnAddMeal_Click;
             // 
             // label3
             // 
@@ -140,17 +142,19 @@
             BtnSchedule.TabIndex = 8;
             BtnSchedule.Text = "Agendar";
             BtnSchedule.UseVisualStyleBackColor = true;
+            BtnSchedule.Click += BtnSchedule_Click;
             // 
-            // BtnDelete
+            // BtnDeleteMeal
             // 
-            BtnDelete.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            BtnDelete.ForeColor = Color.Red;
-            BtnDelete.Location = new Point(269, 59);
-            BtnDelete.Name = "BtnDelete";
-            BtnDelete.Size = new Size(130, 36);
-            BtnDelete.TabIndex = 8;
-            BtnDelete.Text = "Eliminar";
-            BtnDelete.UseVisualStyleBackColor = true;
+            BtnDeleteMeal.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            BtnDeleteMeal.ForeColor = Color.Red;
+            BtnDeleteMeal.Location = new Point(269, 59);
+            BtnDeleteMeal.Name = "BtnDeleteMeal";
+            BtnDeleteMeal.Size = new Size(130, 36);
+            BtnDeleteMeal.TabIndex = 8;
+            BtnDeleteMeal.Text = "Eliminar";
+            BtnDeleteMeal.UseVisualStyleBackColor = true;
+            BtnDeleteMeal.Click += BtnDeleteMeal_Click;
             // 
             // BtnEdit
             // 
@@ -162,6 +166,7 @@
             BtnEdit.TabIndex = 5;
             BtnEdit.Text = "Editar";
             BtnEdit.UseVisualStyleBackColor = true;
+            BtnEdit.Click += BtnEdit_Click;
             // 
             // BtnMeals
             // 
@@ -170,6 +175,7 @@
             BtnMeals.Name = "BtnMeals";
             BtnMeals.Size = new Size(289, 28);
             BtnMeals.TabIndex = 1;
+            BtnMeals.SelectedIndexChanged += BtnMeals_SelectedIndexChanged;
             // 
             // label1
             // 
@@ -264,10 +270,12 @@
             BtnSaveMeal.TabIndex = 11;
             BtnSaveMeal.Text = "Agregar";
             BtnSaveMeal.UseVisualStyleBackColor = true;
+            BtnSaveMeal.Click += BtnSaveMeal_Click;
             // 
             // BtnTimeMeal
             // 
             BtnTimeMeal.FormattingEnabled = true;
+            BtnTimeMeal.Items.AddRange(new object[] { "Desayuno", "Almuerzo", "Cena" });
             BtnTimeMeal.Location = new Point(203, 45);
             BtnTimeMeal.Name = "BtnTimeMeal";
             BtnTimeMeal.Size = new Size(189, 28);
@@ -327,6 +335,7 @@
             BtnProduct.Size = new Size(124, 28);
             BtnProduct.TabIndex = 13;
             BtnProduct.Text = "Productos";
+            BtnProduct.SelectedIndexChanged += BtnProduct_SelectedIndexChanged;
             // 
             // BtnAddProduct
             // 
@@ -338,6 +347,7 @@
             BtnAddProduct.TabIndex = 12;
             BtnAddProduct.Text = "Agregar";
             BtnAddProduct.UseVisualStyleBackColor = true;
+            BtnAddProduct.Click += BtnAddProduct_Click;
             // 
             // BtnDeleteProduct
             // 
@@ -349,6 +359,7 @@
             BtnDeleteProduct.TabIndex = 9;
             BtnDeleteProduct.Text = "Eliminar";
             BtnDeleteProduct.UseVisualStyleBackColor = true;
+            BtnDeleteProduct.Click += BtnDeleteProduct_Click;
             // 
             // label8
             // 
@@ -400,7 +411,7 @@
         private Label label1;
         private Panel PanelMealInfo;
         private Label TxtMealInfo;
-        private Button BtnDelete;
+        private Button BtnDeleteMeal;
         private Button BtnEdit;
         private ComboBox BtnMeals;
         private Button BtnSchedule;

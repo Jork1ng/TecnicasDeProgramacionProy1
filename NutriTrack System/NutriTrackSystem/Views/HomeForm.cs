@@ -50,5 +50,28 @@ namespace NutriTrackSystem.Views
             form.Show();
             this.Hide();
         }
+
+        private void ButtonMenu_Click(object sender, EventArgs e)
+        {
+            MealManagementForm form = new MealManagementForm(currentUser);
+            form.Show();
+            this.Hide();
+        }
+
+        private void BtnLogOut_Click(object sender, EventArgs e)
+        {
+            LoginForm login = new LoginForm();
+            login.Show();
+
+            this.Close();
+        }
+
+        private void ButtonStatics_Click(object sender, EventArgs e)
+        {
+            StaticsForm stats = new StaticsForm(currentUser);
+            stats.Show();
+
+            this.Hide();
+        }
     }
 }

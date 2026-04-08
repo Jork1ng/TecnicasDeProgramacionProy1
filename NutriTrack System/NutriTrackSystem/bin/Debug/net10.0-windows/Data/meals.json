@@ -1,0 +1,30 @@
+[
+  {
+    "Name": "Pinto con huevo",
+    "MealType": "Desayuno",
+    "Username": "Jordy",
+    "Products": [
+      {
+        "Name": "Pechuga de pollo",
+        "Protein": 31,
+        "Carbs": 0,
+        "Fats": 3,
+        "Quantity": 300
+      }
+    ]
+  },
+  {
+    "Name": "Ceviche de pescado",
+    "MealType": "Cena",
+    "Username": "Jordy",
+    "Products": [
+      {
+        "Name": "Pechuga de pollo",
+        "Protein": 31,
+        "Carbs": 0,
+        "Fats": 3,
+        "Quantity": 100
+      }
+    ]
+  }
+]

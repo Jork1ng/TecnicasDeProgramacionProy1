@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NutriTrackSystem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e57ea9baad268ae881c56ff43560aa2c198fe3c1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a51ec1ce4419f3dc7d37c5be7c04ada34fba4d2")]
 [assembly: System.Reflection.AssemblyProductAttribute("NutriTrackSystem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NutriTrackSystem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
