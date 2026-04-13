@@ -44,15 +44,10 @@
             LabelIngreseSuPeso = new Label();
             TxtImc = new Label();
             TxtGoal = new Label();
-            TxtFatResult = new Label();
-            TxtCarboResult = new Label();
-            TxtProteinResult = new Label();
             TxtFat = new Label();
             TxtCarbo = new Label();
             TxtProtein = new Label();
-            TxtImcResult = new Label();
             BtnSave = new Button();
-            TxtGoalResult = new Label();
             SuspendLayout();
             // 
             // labelTitulo
@@ -94,7 +89,6 @@
             TxtHeight.Size = new Size(178, 27);
             TxtHeight.TabIndex = 31;
             TxtHeight.TextAlign = HorizontalAlignment.Center;
-            TxtHeight.TextChanged += TxtHeight_TextChanged;
             // 
             // TxtWeight
             // 
@@ -117,7 +111,7 @@
             // ComboBoxMeta
             // 
             ComboBoxMeta.FormattingEnabled = true;
-            ComboBoxMeta.Items.AddRange(new object[] { "Mantener", "Perder grasa", "Ganar masa" });
+            ComboBoxMeta.Items.AddRange(new object[] { "Mantener", "Perder peso", "Ganar masa" });
             ComboBoxMeta.Location = new Point(215, 184);
             ComboBoxMeta.Name = "ComboBoxMeta";
             ComboBoxMeta.Size = new Size(176, 28);
@@ -144,7 +138,7 @@
             // ComboBoxActividadFisica
             // 
             ComboBoxActividadFisica.FormattingEnabled = true;
-            ComboBoxActividadFisica.Items.AddRange(new object[] { "Intensa", "Moderada", "Minima" });
+            ComboBoxActividadFisica.Items.AddRange(new object[] { "Minima", "Moderada", "Intensa" });
             ComboBoxActividadFisica.Location = new Point(216, 235);
             ComboBoxActividadFisica.Name = "ComboBoxActividadFisica";
             ComboBoxActividadFisica.Size = new Size(176, 28);
@@ -180,7 +174,7 @@
             // TxtImc
             // 
             TxtImc.AutoSize = true;
-            TxtImc.Location = new Point(197, 316);
+            TxtImc.Location = new Point(279, 318);
             TxtImc.Name = "TxtImc";
             TxtImc.Size = new Size(38, 20);
             TxtImc.TabIndex = 32;
@@ -189,43 +183,16 @@
             // TxtGoal
             // 
             TxtGoal.AutoSize = true;
-            TxtGoal.Location = new Point(197, 336);
+            TxtGoal.Location = new Point(221, 338);
             TxtGoal.Name = "TxtGoal";
             TxtGoal.Size = new Size(170, 20);
             TxtGoal.TabIndex = 33;
             TxtGoal.Text = "Meta de calorias diarias:";
             // 
-            // TxtFatResult
-            // 
-            TxtFatResult.AutoSize = true;
-            TxtFatResult.Location = new Point(385, 400);
-            TxtFatResult.Name = "TxtFatResult";
-            TxtFatResult.Size = new Size(21, 20);
-            TxtFatResult.TabIndex = 39;
-            TxtFatResult.Text = "%";
-            // 
-            // TxtCarboResult
-            // 
-            TxtCarboResult.AutoSize = true;
-            TxtCarboResult.Location = new Point(385, 376);
-            TxtCarboResult.Name = "TxtCarboResult";
-            TxtCarboResult.Size = new Size(21, 20);
-            TxtCarboResult.TabIndex = 38;
-            TxtCarboResult.Text = "%";
-            // 
-            // TxtProteinResult
-            // 
-            TxtProteinResult.AutoSize = true;
-            TxtProteinResult.Location = new Point(385, 356);
-            TxtProteinResult.Name = "TxtProteinResult";
-            TxtProteinResult.Size = new Size(21, 20);
-            TxtProteinResult.TabIndex = 37;
-            TxtProteinResult.Text = "%";
-            // 
             // TxtFat
             // 
             TxtFat.AutoSize = true;
-            TxtFat.Location = new Point(197, 400);
+            TxtFat.Location = new Point(270, 398);
             TxtFat.Name = "TxtFat";
             TxtFat.Size = new Size(52, 20);
             TxtFat.TabIndex = 36;
@@ -234,7 +201,7 @@
             // TxtCarbo
             // 
             TxtCarbo.AutoSize = true;
-            TxtCarbo.Location = new Point(197, 376);
+            TxtCarbo.Location = new Point(244, 378);
             TxtCarbo.Name = "TxtCarbo";
             TxtCarbo.Size = new Size(103, 20);
             TxtCarbo.TabIndex = 35;
@@ -243,20 +210,11 @@
             // TxtProtein
             // 
             TxtProtein.AutoSize = true;
-            TxtProtein.Location = new Point(197, 356);
+            TxtProtein.Location = new Point(258, 358);
             TxtProtein.Name = "TxtProtein";
             TxtProtein.Size = new Size(70, 20);
             TxtProtein.TabIndex = 34;
             TxtProtein.Text = "Proteinas";
-            // 
-            // TxtImcResult
-            // 
-            TxtImcResult.AutoSize = true;
-            TxtImcResult.Location = new Point(384, 316);
-            TxtImcResult.Name = "TxtImcResult";
-            TxtImcResult.Size = new Size(21, 20);
-            TxtImcResult.TabIndex = 40;
-            TxtImcResult.Text = "%";
             // 
             // BtnSave
             // 
@@ -270,26 +228,12 @@
             BtnSave.UseVisualStyleBackColor = true;
             BtnSave.Click += BtnSave_Click;
             // 
-            // TxtGoalResult
-            // 
-            TxtGoalResult.AutoSize = true;
-            TxtGoalResult.Location = new Point(385, 336);
-            TxtGoalResult.Name = "TxtGoalResult";
-            TxtGoalResult.Size = new Size(21, 20);
-            TxtGoalResult.TabIndex = 42;
-            TxtGoalResult.Text = "%";
-            // 
             // UserInfoForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(583, 462);
-            Controls.Add(TxtGoalResult);
             Controls.Add(BtnSave);
-            Controls.Add(TxtImcResult);
-            Controls.Add(TxtFatResult);
-            Controls.Add(TxtCarboResult);
-            Controls.Add(TxtProteinResult);
             Controls.Add(TxtFat);
             Controls.Add(TxtCarbo);
             Controls.Add(TxtProtein);
@@ -334,14 +278,9 @@
         private Label LabelIngreseSuPeso;
         private Label TxtImc;
         private Label TxtGoal;
-        private Label TxtFatResult;
-        private Label TxtCarboResult;
-        private Label TxtProteinResult;
         private Label TxtFat;
         private Label TxtCarbo;
         private Label TxtProtein;
-        private Label TxtImcResult;
         private Button BtnSave;
-        private Label TxtGoalResult;
     }
 }

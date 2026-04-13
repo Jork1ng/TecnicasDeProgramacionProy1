@@ -24,11 +24,6 @@ namespace NutriTrackSystem.Views
             InitializeComponent();
         }
 
-        private void label14_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void StaticsForm_Load(object sender, EventArgs e)
         {
 

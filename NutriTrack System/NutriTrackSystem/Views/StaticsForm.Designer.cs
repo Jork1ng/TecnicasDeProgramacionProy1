@@ -340,7 +340,6 @@
             TxtProtein.Size = new Size(70, 20);
             TxtProtein.TabIndex = 8;
             TxtProtein.Text = "Proteinas";
-            TxtProtein.Click += label14_Click;
             // 
             // label11
             // 

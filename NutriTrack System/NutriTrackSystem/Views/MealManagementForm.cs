@@ -48,12 +48,6 @@ namespace NutriTrackSystem.Views
             PanelEditMeal.Visible = false;
             PanelAddMeal.Visible = false;
         }
-
-        private void BtnEat_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void BtnSaveMeal_Click(object sender, EventArgs e)
         {
             IMealService controller = new MealController();
@@ -173,10 +167,6 @@ namespace NutriTrackSystem.Views
             BtnProduct.DataSource = products;
             BtnProduct.DisplayMember = "Name";
         }
-        private void BtnProduct_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
 
         private void BtnAddProduct_Click(object sender, EventArgs e)
         {
@@ -211,6 +201,7 @@ namespace NutriTrackSystem.Views
             }
 
             mealController.UpdateMeal(selectedMeal);
+            MostrarMealInfo(selectedMeal);
             MessageBox.Show("Producto agregado al platillo");
         }
 
@@ -244,7 +235,7 @@ namespace NutriTrackSystem.Views
             }
 
             mealController.UpdateMeal(selectedMeal);
-
+            MostrarMealInfo(selectedMeal);
             MessageBox.Show("Producto actualizado");
         }
         private void MostrarMealInfo(Meal meal)

@@ -9,7 +9,14 @@
         "Protein": 31,
         "Carbs": 0,
         "Fats": 3,
-        "Quantity": 300
+        "Quantity": 200
+      },
+      {
+        "Name": "huevo",
+        "Protein": 16,
+        "Carbs": 10,
+        "Fats": 8,
+        "Quantity": 100
       }
     ]
   },
@@ -23,7 +30,7 @@
         "Protein": 31,
         "Carbs": 0,
         "Fats": 3,
-        "Quantity": 100
+        "Quantity": 300
       }
     ]
   }

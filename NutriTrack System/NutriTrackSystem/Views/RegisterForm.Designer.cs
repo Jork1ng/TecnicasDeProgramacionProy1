@@ -56,7 +56,6 @@
             LabelNombreDeUsuario.Size = new Size(240, 20);
             LabelNombreDeUsuario.TabIndex = 3;
             LabelNombreDeUsuario.Text = "Bienvenido a la sección de registro";
-            LabelNombreDeUsuario.Click += LabelBienvenido_Click;
             // 
             // labelTitulo
             // 
@@ -77,7 +76,6 @@
             LabelEscribaElNombreDeUsuario.Size = new Size(201, 20);
             LabelEscribaElNombreDeUsuario.TabIndex = 4;
             LabelEscribaElNombreDeUsuario.Text = "Escriba el nombre de usuario";
-            LabelEscribaElNombreDeUsuario.Click += LabelEscribaElNombreDeUsuario_Click;
             // 
             // LabelCreaUnaContraseña
             // 
@@ -124,7 +122,6 @@
             TxtAltura.Size = new Size(163, 20);
             TxtAltura.TabIndex = 11;
             TxtAltura.Text = "Ingrese su altura en CM";
-            TxtAltura.Click += TxtAltura_Click;
             // 
             // LabelActividadFisica
             // 
@@ -134,7 +131,6 @@
             LabelActividadFisica.Size = new Size(112, 20);
             LabelActividadFisica.TabIndex = 13;
             LabelActividadFisica.Text = "Actividad Fisica";
-            LabelActividadFisica.Click += LabelActividadFisica_Click;
             // 
             // ComboBoxActividadFisica
             // 
@@ -171,7 +167,6 @@
             ComboBoxMeta.Name = "ComboBoxMeta";
             ComboBoxMeta.Size = new Size(176, 28);
             ComboBoxMeta.TabIndex = 17;
-            ComboBoxMeta.SelectedIndexChanged += ComboBoxMeta_SelectedIndexChanged;
             // 
             // LabelMeta
             // 

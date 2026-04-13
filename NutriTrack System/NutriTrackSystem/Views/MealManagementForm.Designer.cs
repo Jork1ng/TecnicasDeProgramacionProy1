@@ -199,7 +199,7 @@
             // 
             TxtMealInfo.AutoSize = true;
             TxtMealInfo.Location = new Point(26, 26);
-            TxtMealInfo.MaximumSize = new Size(150, 500);
+            TxtMealInfo.MaximumSize = new Size(150, 400);
             TxtMealInfo.Name = "TxtMealInfo";
             TxtMealInfo.Size = new Size(114, 40);
             TxtMealInfo.TabIndex = 0;
@@ -227,7 +227,6 @@
             BtnEat.TabIndex = 9;
             BtnEat.Text = "Comer";
             BtnEat.UseVisualStyleBackColor = true;
-            BtnEat.Click += BtnEat_Click;
             // 
             // DateTimePickerMeal
             // 
@@ -335,7 +334,6 @@
             BtnProduct.Size = new Size(124, 28);
             BtnProduct.TabIndex = 13;
             BtnProduct.Text = "Productos";
-            BtnProduct.SelectedIndexChanged += BtnProduct_SelectedIndexChanged;
             // 
             // BtnAddProduct
             // 

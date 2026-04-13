@@ -2,11 +2,16 @@
   {
     "Username": "Jordy",
     "Password": "admin",
-    "Weight": 75,
-    "Height": 177,
+    "Weight": 70,
+    "Height": 175,
     "ActivityLevel": "Intensa",
-    "DietaryPreferences": "Vegetariana",
-    "HealthGoals": "Mantener"
+    "DietaryPreferences": "Estandar",
+    "HealthGoals": "Ganar masa",
+    "BMI": 22.857142857142858,
+    "DailyCalories": 2750,
+    "ProteinGrams": 206.25,
+    "CarbsGrams": 275,
+    "FatGrams": 91.66666666666667
   },
   {
     "Username": "Minor",
@@ -15,7 +20,12 @@
     "Height": 170,
     "ActivityLevel": "Moderada",
     "DietaryPreferences": "Vegetariana",
-    "HealthGoals": "Perder grasa"
+    "HealthGoals": "Perder grasa",
+    "BMI": 0,
+    "DailyCalories": 0,
+    "ProteinGrams": 0,
+    "CarbsGrams": 0,
+    "FatGrams": 0
   },
   {
     "Username": "Johana",
@@ -24,6 +34,39 @@
     "Height": 180,
     "ActivityLevel": "Moderada",
     "DietaryPreferences": "Keto",
-    "HealthGoals": "Mantener"
+    "HealthGoals": "Mantener",
+    "BMI": 0,
+    "DailyCalories": 0,
+    "ProteinGrams": 0,
+    "CarbsGrams": 0,
+    "FatGrams": 0
+  },
+  {
+    "Username": "Luis",
+    "Password": "admin",
+    "Weight": 60,
+    "Height": 180,
+    "ActivityLevel": "Moderada",
+    "DietaryPreferences": "Estandar",
+    "HealthGoals": "Mantener",
+    "BMI": 0,
+    "DailyCalories": 0,
+    "ProteinGrams": 0,
+    "CarbsGrams": 0,
+    "FatGrams": 0
+  },
+  {
+    "Username": "Ashley",
+    "Password": "123",
+    "Weight": 60,
+    "Height": 157,
+    "ActivityLevel": "Moderada",
+    "DietaryPreferences": "Estandar",
+    "HealthGoals": "Mantener",
+    "BMI": 0.002434175828634022,
+    "DailyCalories": 1800,
+    "ProteinGrams": 135,
+    "CarbsGrams": 180,
+    "FatGrams": 60
   }
 ]

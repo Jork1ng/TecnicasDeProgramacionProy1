@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿
 
 namespace NutriTrackSystem.Models
 {
@@ -56,8 +54,26 @@ namespace NutriTrackSystem.Models
         /// </summary>
         /// <value>
         /// The user's health goals.
-        /// </value>
         public string HealthGoals { get; set; }
-
+        /// <summary>
+        /// The Body Mass Index (BMI) is a measure of body fat based on height and weight. It is calculated by dividing a person's weight in kilograms by the square of their height in meters. The BMI value can be used to categorize individuals into different weight status categories, such as underweight, normal weight, overweight, and obesity. A higher BMI may indicate a higher risk of health problems related to excess body fat, while a lower BMI may indicate a lower risk. However, it is important to note that BMI is not a perfect measure of body fat and does not take into account factors such as muscle mass or distribution of fat.
+        /// </summary>
+        public double BMI { get; set; }
+        /// <summary>
+        /// Gets or sets the total number of calories consumed or allocated for a single day.
+        /// </summary>
+        public double DailyCalories { get; set; }
+        /// <summary>
+        /// Gets or sets the amount of protein, in grams.
+        /// </summary>
+        public double ProteinGrams { get; set; }
+        /// <summary>
+        /// Gets or sets the amount of carbohydrates, in grams.
+        /// </summary>
+        public double CarbsGrams { get; set; }
+        /// <summary>
+        /// Gets or sets the amount of fats, in grams.
+        /// </summary>
+        public double FatGrams { get; set; }
     }
 }

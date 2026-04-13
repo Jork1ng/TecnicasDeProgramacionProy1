@@ -25,6 +25,19 @@ namespace NutriTrackSystem.Controllers
 
             return Path.Combine(directory, "users.json");
         }
+        private void ApplyNutrition(User user)
+        {
+            var nutrition = new NutritionController();
+
+            user.BMI = nutrition.CalculateIMC(user);
+            user.DailyCalories = nutrition.CalculateCalories(user);
+
+            var macros = nutrition.CalculateMacros(user);
+
+            user.ProteinGrams = macros.protein;
+            user.CarbsGrams = macros.carbs;
+            user.FatGrams = macros.fats;
+        }
 
         /// <summary>
         /// Gets all users from the JSON file.
@@ -51,9 +64,10 @@ namespace NutriTrackSystem.Controllers
 
             var users = GetUsers();
 
-            // Validar usuario único
             if (users.Any(u => u.Username == user.Username))
                 return false;
+
+            ApplyNutrition(user);
 
             users.Add(user);
 
@@ -77,10 +91,11 @@ namespace NutriTrackSystem.Controllers
             return users.FirstOrDefault(u =>
                 u.Username == username && u.Password == password);
         }
+        /// <summary>
+        /// Updates user information such as weight, height, activity level, dietary preferences, and health goals.
+        /// </summary>
         public bool UpdateUser(User updatedUser)
         {
-            string fullPath = GetFilePath();
-
             var users = GetUsers();
 
             var user = users.FirstOrDefault(u => u.Username == updatedUser.Username);
@@ -94,11 +109,14 @@ namespace NutriTrackSystem.Controllers
             user.DietaryPreferences = updatedUser.DietaryPreferences;
             user.HealthGoals = updatedUser.HealthGoals;
 
+            ApplyNutrition(user);
+
             string json = JsonSerializer.Serialize(users, new JsonSerializerOptions
             {
                 WriteIndented = true
             });
-            File.WriteAllText(fullPath, json);
+
+            File.WriteAllText(GetFilePath(), json);
 
             return true;
         }

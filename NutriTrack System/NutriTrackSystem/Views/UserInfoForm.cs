@@ -35,8 +35,8 @@ namespace NutriTrackSystem.Views
             currentUser = user;
 
             CargarDatosUsuario();
+            CargarNutricion();
         }
-
         private void CargarDatosUsuario()
         {
             TxtWeight.Text = $"{currentUser.Weight}";
@@ -45,23 +45,27 @@ namespace NutriTrackSystem.Views
             ComboBoxTipoDeDieta.Text = currentUser.DietaryPreferences;
             ComboBoxMeta.Text = currentUser.HealthGoals;
         }
-        private void TxtHeight_TextChanged(object sender, EventArgs e)
+
+        private void CargarNutricion()
         {
+            if (currentUser == null)
+                return;
 
+            TxtImc.Text = $"IMC: {currentUser.BMI:F1}";
+            TxtGoal.Text = $"Calorías Diarias: {currentUser.DailyCalories:F0} kcal";
+            TxtProtein.Text = $"Proteínas: {currentUser.ProteinGrams:F0} g";
+            TxtCarbo.Text = $"Carbohidratos: {currentUser.CarbsGrams:F0} g";
+            TxtFat.Text = $"Grasas: {currentUser.FatGrams:F0} g";
         }
-
         private void UserInfoForm_Load(object sender, EventArgs e)
         {
-
         }
-
         private void BtnBack_Click(object sender, EventArgs e)
         {
             HomeForm home = new HomeForm(currentUser);
             home.Show();
             this.Close();
         }
-
         private void BtnSave_Click(object sender, EventArgs e)
         {
             IAuthService controller = new AuthController();
@@ -95,6 +99,17 @@ namespace NutriTrackSystem.Views
             currentUser.DietaryPreferences = ComboBoxTipoDeDieta.Text;
             currentUser.HealthGoals = ComboBoxMeta.Text;
 
+            var nutrition = new NutritionController();
+
+            currentUser.BMI = nutrition.CalculateIMC(currentUser);
+            currentUser.DailyCalories = nutrition.CalculateCalories(currentUser);
+
+            var macros = nutrition.CalculateMacros(currentUser);
+
+            currentUser.ProteinGrams = macros.protein;
+            currentUser.CarbsGrams = macros.carbs;
+            currentUser.FatGrams = macros.fats;
+
             bool success = controller.UpdateUser(currentUser);
 
             if (success)
@@ -105,6 +120,7 @@ namespace NutriTrackSystem.Views
             {
                 MessageBox.Show("Error al actualizar usuario");
             }
+            CargarNutricion();
         }
     }
 }
